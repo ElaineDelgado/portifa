@@ -9,7 +9,7 @@ const Info = () => {
         <div className="info-text">
           <p>
             Meu nome é Elaine Delgado, sou front end developer e moro no Rio de Janeiro. 
-            Estudo HTML, CSS  e Javascript há 2 anos e recentemente enttrei no mundo do ReactJS com Typescript.    
+            Estudo HTML, CSS  e Javascript há 2 anos e recentemente entrei no mundo do ReactJS com Typescript.    
           </p>
           <p>
             Atualmente trabalho no PRODERJ - Centro de Tecnologia de Informação e Comunicação do Estado do Rio de Janeiro atuando principalmente no front end dos projetos.
