@@ -22,7 +22,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   min-height: 100vh;
 }
 
@@ -31,7 +31,8 @@
   text-align: start;
   list-style: none;
   align-self: flex-start;
-  padding: 0 20px;
+  padding: 0 15px;
+  margin: 15px 0 0 0;
 }
 
 .main-container ul li a {
@@ -110,14 +111,15 @@ div.info-items {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  padding: 50px 0;
 }
 
 .info-section h1 {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 img.profile-image {
-  max-width: 20%;
+  max-width: 16%;
   min-width: 150px;
   height: auto;
   display: block;
@@ -170,6 +172,7 @@ textarea {
   padding: 8px 15px;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.282);
+  width: 320px;
 }
 
 input {
@@ -205,5 +208,5 @@ button.btnSubmit:hover {
 
 /* Footer */
 footer {
-  padding: 50px 0 0 0;
+  padding: 20px 0 20px 0;
 }
