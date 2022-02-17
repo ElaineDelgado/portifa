@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+div#root {
+  min-height: 100vh;
+}
+
 body {
   margin: 0;
   color: #FDA9A9;

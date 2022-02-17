@@ -12,10 +12,7 @@ const Info = () => {
             Estudo HTML, CSS  e Javascript há 2 anos e recentemente entrei no mundo do ReactJS com Typescript.    
           </p>
           <p>
-            Atualmente trabalho no PRODERJ - Centro de Tecnologia de Informação e Comunicação do Estado do Rio de Janeiro atuando principalmente no front end dos projetos.
-          </p>          
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem beatae optio perspiciatis recusandae eveniet, et alias similique ea praesentium veritatis.
+            Atualmente trabalho no PRODERJ - Centro de Tecnologia de Informação e Comunicação do Estado do Rio de Janeiro atuando principalmente no front end dos projetos.          
           </p>          
         </div>
       </div>
