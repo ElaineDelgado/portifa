@@ -17,7 +17,7 @@ const Contactme = () => {
 
       <h1> &#60; Contato &#47;&#62;</h1>
       <form method="POST" action="https://formsubmit.co/delgado.elaine03@gmail.com">
-
+        <div className="form-container">
         <div className="flexDiv">
           <label htmlFor="contact-name">Nome:</label>
           <input value={name} type="text" name="contact-name" id="contact-name" placeholder="Digite seu nome" onChange={handleName}/>
@@ -32,6 +32,8 @@ const Contactme = () => {
         </div>           
         {/* <input value={subject} type="text" name="subject" id="subject"  placeholder="Digite o assunto" onChange={handleSubject}/> */}      
         <button type="submit" className="btnSubmit">Enviar</button>
+
+        </div>
       </form>
     </div>
   )

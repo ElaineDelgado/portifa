@@ -1,4 +1,5 @@
 import foto from '../foto.jpg'
+import '../App.css'
 
 const Info = () => {
   return (
@@ -12,7 +13,7 @@ const Info = () => {
             Estudo HTML, CSS  e Javascript há 2 anos e recentemente entrei no mundo do ReactJS com Typescript.    
           </p>
           <p>
-            Atualmente trabalho no PRODERJ - Centro de Tecnologia de Informação e Comunicação do Estado do Rio de Janeiro atuando principalmente no front end dos projetos.          
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut recusandae dignissimos eius veniam amet? Assumenda, ea odit nulla vel aliquid itaque corporis, eligendi pariatur blanditiis dignissimos quod provident nobis dolor!         
           </p>          
         </div>
       </div>

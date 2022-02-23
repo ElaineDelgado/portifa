@@ -15,6 +15,10 @@
   margin: 15px 0 0 0;
 }
 
+.main-container ul li {
+  margin-bottom: 5px;
+}
+
 .main-container ul li a {
   font-weight: 300;
   letter-spacing: 2px;
@@ -52,6 +56,7 @@ h1 {
   font-size: 2rem;
   color: #FDA9A9;
   letter-spacing: 2px;
+  margin-top: 0;
 }
 
 h2 {
@@ -144,6 +149,13 @@ div.info-text p + p {
   align-items: center;
 }
 
+div.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-content: flex-end;
+}
+
 div.flexDiv {
   display: flex;
   align-items: center;
@@ -156,7 +168,7 @@ textarea {
   color: #FDA9A9;
   font-weight: 400;  
   border: 2px solid #FDA9A9;
-  padding: 8px 15px;
+  padding: 5px 15px;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.282);
   width: 320px;
@@ -187,6 +199,8 @@ button.btnSubmit {
   background-color: #FDA9A9;
   margin-top: 25px;
   cursor: pointer;
+  align-self: center;
+  margin-left: 65px;
 }
 
 button.btnSubmit:hover {
