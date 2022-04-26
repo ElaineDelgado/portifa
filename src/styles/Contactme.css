@@ -1,0 +1,91 @@
+
+/***** Contato ******/ 
+.contactme-container {
+  min-height: 65vh;
+  margin: 40px auto;
+}
+
+.contactme-container h1 {
+  margin-bottom: 40px;
+}
+
+.contactme-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-content: flex-end;
+}
+
+div.flexDiv {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+input,
+textarea {
+  font-size: 16px;
+  color: #FDA9A9;
+  font-weight: 400;  
+  border: 2px solid #FDA9A9;
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.282);
+  width: 320px;
+}
+
+input {
+  margin-left: 15px;
+}
+
+textarea {
+  margin-left: 5px;
+}
+
+input:focus {
+  background-color: rgba(0, 0, 0, 0.282);
+}
+
+label {
+  font-size: 16px;
+}
+
+button.btnSubmit {
+  font-size: 20px;
+  padding: 15px 35px;
+  width: 230px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FDA9A9;
+  margin-top: 25px;
+  cursor: pointer;
+  align-self: center;
+  margin-left: 65px;
+}
+
+button.btnSubmit:hover {
+  opacity: .8;
+}
+
+@media (max-width: 560px) {
+  div.contactme-container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  div.flexDiv {
+    flex-direction: column;
+  }
+  input,
+  textarea {    
+    max-width: 70%;
+  }  
+  button.btnSubmit {
+      margin-left: 0;
+    }
+}

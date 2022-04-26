@@ -1,0 +1,128 @@
+.about-me {
+    margin-top: 70px;
+}
+
+div.perfil-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0;
+}
+
+img.profile-image {
+    max-width: 16%;
+    min-width: 150px;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+div.perfil-text {
+    max-width: 30%;
+    min-width: 250px;
+}
+
+div.perfil-text p {
+    font-size: 1rem;
+    text-align: start;
+    letter-spacing: 1.1px;
+}
+
+div.perfil-text p + p {
+    margin-top: 18px;
+}
+
+/* skills */
+article.skills-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start; 
+    width: 100%;  
+    margin-top: 50px; 
+}
+
+article.skills-container h3 {    
+    text-align: left;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.info-item-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.info-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start; 
+}
+
+.info-item p {
+    margin: 5px 0;
+}
+
+/* quote */
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 990px;
+}
+
+.quote {
+    font-size: 1.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    letter-spacing: 1px;  
+    padding-top: 60px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+span.author {
+    text-align: end;
+    font-size: 1rem;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px){
+    header.apresentacao {
+        min-height: auto;
+    }
+    v.info-items {
+        flex-direction: column;
+    }
+    img.profile-image {
+        margin-bottom: 40px;
+    }
+    div.info-text {
+        max-width: 60%;
+    }
+    span.chevron {
+        display: none;
+    }
+}
+
+@media (992px <=width <=1600px) {
+    img.profile-image {
+        min-width:240px;
+    }    
+}
+
+@media (max-width:991px) {
+    img.profile-image {
+        max-width: 40%;
+    }
+}

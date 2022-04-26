@@ -1,4 +1,6 @@
 import React from 'react' 
+import '../styles/Contactme.css'
+import Title from '../components/Title'
 
 const Contactme = () => {
   const [name, setName] = React.useState('')
@@ -14,8 +16,7 @@ const Contactme = () => {
 
   return (
     <div className="contactme-container" id="contato">
-
-      <h1> &#60; Contato &#47;&#62;</h1>
+      <Title title={'Contato'}  /> 
       <form method="POST" action="https://formsubmit.co/delgado.elaine03@gmail.com">
         <div className="form-container">
         <div className="flexDiv">

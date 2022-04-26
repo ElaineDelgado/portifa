@@ -1,0 +1,52 @@
+
+header.apresentacao {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  min-height: 65vh;
+  margin: 40px auto;
+}
+
+.sakura-logo {
+  height: 40vmin;
+  pointer-events: none;
+  margin-bottom: 15px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .sakura-logo {
+    animation: sakura-logo-spin infinite 20s linear;
+  }
+}
+
+h1.special-title {
+  font-family: Georgia, serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.home-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+@keyframes sakura-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* MEDIA QUERIES */
+@media (max-width: 768px){
+  header.apresentacao {
+  min-height: auto;
+}
+}

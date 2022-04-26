@@ -1,0 +1,37 @@
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  display: flex;
+  text-align: start;
+  list-style: none;
+  align-self: flex-start;
+  padding: 0 15px;
+}
+
+ul li {
+  margin: 5px 10px;
+}
+
+ul li a {
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding: 4px 0;
+  text-decoration: none;
+  color: #FDA9A9;
+  transition: all .3s ease;
+}
+
+ul li a:hover {
+  color: #ffdada;
+}
+
+
+@media (max-width: 560px) {
+  nav {
+    justify-content: center;  
+  }
+}

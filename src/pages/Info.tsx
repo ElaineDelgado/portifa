@@ -1,23 +1,34 @@
+import '../styles/Info.css'
+import Title from '../components/Title'
 import foto from '../foto.jpg'
-import '../App.css'
+import InfoCards from '../components/InfoCards'
 
 const Info = () => {
   return (
-    <section className="info-section" id="info">
-      <h1> &#60; Sobre mim &#47;&#62;</h1>
-      <div className="info-items">
-        <img src={foto} alt="Foto perfil" className="profile-image" />
-        <div className="info-text">
-          <p>
-            Meu nome é Elaine Delgado, sou front end developer e moro no Rio de Janeiro. 
-            Estudo HTML, CSS  e Javascript há 2 anos e recentemente entrei no mundo do ReactJS com Typescript.    
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut recusandae dignissimos eius veniam amet? Assumenda, ea odit nulla vel aliquid itaque corporis, eligendi pariatur blanditiis dignissimos quod provident nobis dolor!         
-          </p>          
-        </div>
+    <main className="info-section" id="info">
+      <Title title={'Info'}/>
+      <article className="about-me">     
+        <div className="perfil-items">
+          <img src={foto} alt="Foto perfil" className="profile-image" />
+          <div className="perfil-text">
+            <p>
+              Olá! Meu nome é Elaine Delgado, sou desenvolvedora frontend e moro no Rio de Janeiro. 
+              Comecei a estudar as tecnologias necessárias para desenvolvimento de software em 2019, mas o que conquistou meu coração foi o Frontend.
+            </p>
+            <p>
+              No início de 2020 comecei um trabalho na área de Frontend mas mesmo não paro de estudar novas tecnologias e aquelas já utilizo.        
+            </p>          
+          </div>
       </div>
-    </section>
+      </article>
+      <div className="info-skills"> 
+          <InfoCards />     
+      </div>
+      <aside>
+        <p className="quote">"Se você acredita que pode, ou que não pode, de qualquer maneira você está certo."</p>
+        <span className="author">Henry Ford</span>
+      </aside>      
+    </main>
   )
 }
 
