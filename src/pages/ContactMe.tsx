@@ -1,6 +1,7 @@
 import React from 'react' 
 import '../styles/Contactme.css'
 import Title from '../components/Title'
+import Subtitle from '../components/Subtitle'
 
 const Contactme = () => {
   const [name, setName] = React.useState('')
@@ -17,6 +18,7 @@ const Contactme = () => {
   return (
     <div className="contactme-container" id="contato">
       <Title title={'Contato'}  /> 
+      <Subtitle title={'me mande uma mensagem!'} />
       <form method="POST" action="https://formsubmit.co/delgado.elaine03@gmail.com">
         <div className="form-container">
         <div className="flexDiv">
@@ -30,8 +32,7 @@ const Contactme = () => {
         <div className="flexDiv">
           <label htmlFor="subject">Assunto:</label>
           <textarea rows={5} cols={20} value={subject} name="subject" id="subject" onChange={handleSubject}></textarea>
-        </div>           
-        {/* <input value={subject} type="text" name="subject" id="subject"  placeholder="Digite o assunto" onChange={handleSubject}/> */}      
+        </div>        
         <button type="submit" className="btnSubmit">Enviar</button>
 
         </div>

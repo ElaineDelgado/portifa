@@ -11,8 +11,7 @@
 }
 
 .works-cards-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: flex;  
   justify-content: space-around;
   align-items: center;
   width: 100%;
@@ -46,4 +45,10 @@
   opacity: .8;
   text-decoration: underline;
   transition: all .3s;
+}
+
+@media (max-width: 990px) {
+  .works-cards-container {
+    flex-wrap: wrap;
+  }
 }
