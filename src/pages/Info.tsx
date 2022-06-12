@@ -2,11 +2,13 @@ import '../styles/Info.css'
 import Title from '../components/Title'
 import foto from '../foto.jpg'
 import InfoCards from '../components/InfoCards'
+import Subtitle from '../components/Subtitle'
 
 const Info = () => {
   return (
     <main className="info-section" id="info">
       <Title title={'Info'}/>
+      <Subtitle title={'um pouco sobre mim'} />    
       <article className="about-me">     
         <div className="perfil-items">
           <img src={foto} alt="Foto perfil" className="profile-image" />

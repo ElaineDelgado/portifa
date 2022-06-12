@@ -16,15 +16,19 @@
 }
 
 .work-card {
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
   align-items: center;
+  justify-content: space-evenly;
   margin-bottom: 30px;
 }
 
-.work-card img {
-  max-width: 65%;
-  height: auto;
+.img-section {
+  max-width: 550px;
+} 
+
+.details-text {
+  max-width: 300px;
+  text-align: start;
 }
 
 .linkToProject {
@@ -34,7 +38,7 @@
 
 .linkToProject a {
   color: #FDA9A9;
-  text-decoration: none;
+  /* text-decoration: none; */
   font-size: 1rem;
   margin-left: 1rem;
 }
