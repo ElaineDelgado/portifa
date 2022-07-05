@@ -6,10 +6,6 @@
   justify-content: space-between;
 }
 
-.portifa-section p:not(.linkToProject p) {
-  margin-top: 30px;
-}
-
 .works-cards-container {
   align-items: center;
   width: 100%;

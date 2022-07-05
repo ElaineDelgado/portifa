@@ -2,7 +2,6 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 h1 {
@@ -11,9 +10,6 @@ h1 {
   letter-spacing: 2px;
 }
 
-.main-title {
-  margin-top: 26px;
-}
 
 h2 {
   font-weight: 500;
@@ -27,5 +23,8 @@ ul li a, p {
 @media (max-width: 768px) {
   .main-container {
     padding-inline: 30px;
+  }
+  .main-title {
+    font-size: 1.8rem;
   }
 }

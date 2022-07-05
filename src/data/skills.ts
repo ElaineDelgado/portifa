@@ -21,7 +21,7 @@ export const skillspl = [
   },
   {
     experience: '1-2 anos de experiência',
-    name: "GITHUB",
+    name: "Github",
   },
 ]
 

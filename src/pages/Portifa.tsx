@@ -17,13 +17,13 @@ const Portifa = () => {
               <section  className=" img-section">
                 <img src={item.image} alt={item.title} /> 
               </section>
-              <section className="details-text py-3">
+              <section className="details-text py-3 mb-8 lg:mb-0">
                 <h3>{item.title}</h3>
                 <div className="linkToProject">
                   <p>Link:</p> 
                   <a href={item.url} target="_blank" rel="noreferrer">Clique aqui</a>
                 </div>
-                <p>{item.description}</p>
+                <p className="mt-2">{item.description}</p>
               </section>              
             </div>
           ))}
@@ -35,13 +35,13 @@ const Portifa = () => {
               <section  className=" img-section">
                 <img src={item.image} alt={item.title} /> 
               </section>
-              <section className="details-text py-3">
+              <section className="details-text py-3 mb-8 lg:mb-0">
                 <h3>{item.title}</h3>
                 <div className="linkToProject">
                   <p>Link:</p> 
                   <a href={item.url} target="_blank" rel="noreferrer">Clique aqui</a>
                 </div>
-                <p>{item.description}</p>
+                <p className="mt-2">{item.description}</p>
               </section>              
             </div>
           ))}
