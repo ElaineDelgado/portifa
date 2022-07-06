@@ -11,9 +11,9 @@ const Portifa = () => {
   
       <Subtitle title={'principais projetos profissionais e pessoais'} /> 
 
-        <article className="works-cards-container grid mt-8">
+        <article className="works-cards-container grid mt-8 lg:max-w-5xl w-full">
           {works.map((item, index) => (
-            <div key={index} className="work-card lg:flex-row flex-col-reverse flex p-8">
+            <div key={index} className="work-card lg:flex-row flex-col-reverse lg:justify-between flex p-8">
               <section  className=" img-section">
                 <img src={item.image} alt={item.title} /> 
               </section>
@@ -29,9 +29,9 @@ const Portifa = () => {
           ))}
         </article> 
 
-        <article className="works-cards-container grid mt-8">
+        <article className="works-cards-container grid mt-8 lg:max-w-5xl w-full">
           {personal.map((item, index) => (
-            <div key={index} className="work-card lg:flex-row flex-col-reverse flex">
+            <div key={index} className="work-card lg:flex-row flex-col-reverse lg:justify-between flex p-8">
               <section  className=" img-section">
                 <img src={item.image} alt={item.title} /> 
               </section>
