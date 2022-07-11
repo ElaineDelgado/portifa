@@ -36,6 +36,6 @@ export const personal = [
     title: 'Current Weather',
     description:'Projeto desenvolvido durante treinamento de Javascript CJRM. O projeto utiliza Javascript e a API utilizada para as requisições foi a Weather API.',
     image: weatherapp,
-    url: "https://quiz-cjrm.netlify.app",
+    url: "https://picweather.netlify.app",
   },
 ]
