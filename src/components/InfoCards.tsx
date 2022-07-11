@@ -20,7 +20,7 @@ const InfoCards = () => {
         <div className="info-item-container">
           { skillsjr.map((item, index) => (
             <div className="info-item" key={index}>
-              <p>{item.name}: {item.experience}; </p>        
+              <p>{item.name}: {item.experience}, </p>        
             </div>
           ))}
         </div>
