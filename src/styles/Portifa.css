@@ -32,7 +32,7 @@
 
 .linkToProject a {
   color: #FDA9A9;
-  /* text-decoration: none; */
+  text-decoration: none;
   font-size: 1rem;
   margin-left: 1rem;
 }

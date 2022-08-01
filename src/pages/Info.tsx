@@ -21,11 +21,14 @@ const Info = () => {
           </div>
       </div>
       </article>
+      <Title title={'Habilidades'}/>
       <div className="info-skills"> 
           <InfoCards />     
       </div>
-      <aside className="mb-8 lg:mb-16">
-        <p className="quote">"Se você acredita que pode, ou que não pode, de qualquer maneira você está certo."</p>
+      <aside className="mb-8 lg:mt-16">
+        <p className="quote">
+          "Se você acredita que pode, ou que não pode, de qualquer maneira você está certo."
+        </p>
         <span className="author">Henry Ford</span>
       </aside>      
     </main>
