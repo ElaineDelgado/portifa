@@ -21,7 +21,7 @@ const Portifa = () => {
                 <h3>{item.title}</h3>
                 <div className="linkToProject">
                   <p>link:</p> 
-                  <a href={item.url} target="_blank" rel="noreferrer">clique aqui</a>
+                  <a href={item.url} target="_blank" rel="noreferrer">Ir para {item.title}</a>
                 </div>
                 <p className="mt-2">{item.description}</p>
               </section>              
