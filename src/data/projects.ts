@@ -3,6 +3,7 @@ import pactorj from '../assets/images/pactorj.png'
 import album from '../assets/images/album.png'
 import quiz from '../assets/images/quiz.png'
 import weatherapp from '../assets/images/weatherapp.png'
+import feedapp from '../assets/images/feedapp.png'
 
 export const works = [
   {
@@ -13,7 +14,7 @@ export const works = [
   },
   {
     title: 'PactoRJ',
-    description:'em meu trabalho também contribuo no desenvolvimento e manutenção do Portal Transparência do PactoRJ, em que é possível conferir o andamento de cada um dos projetos que integram o pacote de obras.',
+    description:'em meu trabalho contribuo no desenvolvimento e manutenção do Portal Transparência do PactoRJ, em que é possível conferir o andamento de cada um dos projetos que integram o pacote de obras.',
     image: pactorj,
     url:"http://www.pacto.rj.gov.br/",
   },
@@ -33,9 +34,15 @@ export const personal = [
     url: "https://quiz-cjrm.netlify.app",
   },
   {
-    title: 'current weather',
-    description:'Projeto desenvolvido durante treinamento de Javascript CJRM. O projeto utiliza Javascript e a API utilizada para as requisições foi a Weather API.',
+    title: 'Current Weather',
+    description:'projeto desenvolvido durante treinamento de Javascript CJRM. O projeto utiliza Javascript e a API utilizada para as requisições foi a Weather API.',
     image: weatherapp,
     url: "https://picweather.netlify.app",
+  },
+  {
+    title: 'Feed App',
+    description:'projeto desenvolvido durante Ignite da Rocketseat, onde desenvolvemos uma página de feed de posts e comentários.',
+    image: feedapp,
+    url: "https://ignitefeedapp.netlify.app",
   },
 ]

@@ -5,7 +5,7 @@ const InfoCards = () => {
   return (
     <article className="skills-container">
       <div>  
-        <h3>.habilidades-fortes &#123;</h3>      
+        <h3>.fortes &#123;</h3>      
         <div className="info-item-container">
           { skillspl.map((item, index) => (
             <div className="info-item" key={index}>
@@ -16,7 +16,7 @@ const InfoCards = () => {
         <h3>	&#125;</h3>
       </div>
       <div>
-        <h3>.habilidades-básicas &#123;</h3>          
+        <h3>.básicas &#123;</h3>          
         <div className="info-item-container">
           { skillsjr.map((item, index) => (
             <div className="info-item" key={index}>

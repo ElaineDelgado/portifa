@@ -15,7 +15,7 @@ const Info = () => {
           <div className="perfil-text">
             <p>
               Olá! Meu nome é Elaine Delgado, sou desenvolvedora frontend e moro no Rio de Janeiro. 
-              Comecei a estudar as tecnologias necessárias para desenvolvimento de software em 2019, mas o que conquistou meu coração foi o Frontend. Atualmente curso Sistemas Para Internet na IBMR, o que está me trazendo uma nova visão da profissão na área de desenvolvimento.        
+              Comecei a estudar desenvolvimento web em 2019, e após alguns cursos percebi que transformar design em código era o que queria fazer. Gosto da parte visual, de criar a interface com a qual a usuário irá interagir de forma que ele tenha a melhor experiência possível. Atualmente curso Sistemas Para Internet na IBMR, o que está me trazendo uma nova visão da profissão.        
               No início de 2021 veio o meu primeiro emprego, onde estou até hoje, que está sendo essencial para meu crescimento profissional e expansão de horizontes.         
             </p>          
           </div>
