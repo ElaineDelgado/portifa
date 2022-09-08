@@ -1,14 +1,14 @@
 export const skillspl = [
   {
-    experience: '2 anos de experiência',
+    experience: '2 anos de experiência, noções de SEO e acessibilidade',
     name: "HTML5",
   },
   {
-    experience: 'utilizado diariamante há cerca de 2 anos',
+    experience: '2 anos de experiência em projetos profissionais e pessoais',
     name:"CSS3",
   },
   {
-    experience: 'fetch API, manipulação do DOM, entre outros',
+    experience: '2 anos de experiência, foco em fetch API',
     name:"Javascript",
   },
   {
@@ -20,7 +20,7 @@ export const skillspl = [
     name: "SASS",
   },
   {
-    experience: 'utilizado no trabalho com frequência',
+    experience: '2 anos de experiência, comandos básicos',
     name: "Github",
   },
 ]
@@ -31,19 +31,19 @@ export const skillsjr = [
       name: "React-JS",
     },  
     {
-      experience: 'ainda em desenvolvimento, menos de 1 ano',
+      experience: 'menos de 1 ano de experiência, noções básicas',
       name: "Next.js", 
     },
     {
-      experience: '1 ano utilizado junto com React',
+      experience: 'conhecimentos básicos, utilizado junto com React',
       name: "Typescript",
     },
     {
-      experience: 'utilizado em projetos pessoais, menos de 1 ano',
+      experience: 'utilizado em projetos pessoais por menos de 1 ano',
       name: "Tailwind",
     },
     {
-      experience: 'utilizado há menos de 1 ano',
+      experience: 'menos de 1 ano de experiência',
       name: "Styled-components",
     },
 ]
