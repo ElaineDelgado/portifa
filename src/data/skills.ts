@@ -12,7 +12,7 @@ export const skillspl = [
     name:"Javascript",
   },
   {
-    experience: 'há um ano e meio utilizado no trabalho',
+    experience: '1 ano de experiência em projetos profissionais',
     name: "Bootstrap",
   },
   {
