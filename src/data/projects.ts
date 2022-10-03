@@ -14,9 +14,9 @@ export const works = [
   },
   {
     title: 'PactoRJ',
-    description:'em meu trabalho contribuo no desenvolvimento e manutenção do Portal Transparência do PactoRJ, em que é possível conferir o andamento de cada um dos projetos que integram o pacote de obras.',
+    description:'contribuí no desenvolvimento e manutenção do Portal Transparência do PactoRJ, onde era possível conferir o andamento de cada um dos projetos que integram o pacote de obras. Essa versão do portal deixou de existir em agosto de 2022.',
     image: pactorj,
-    url:"http://www.pacto.rj.gov.br/",
+    url:"",
   },
 ]
 

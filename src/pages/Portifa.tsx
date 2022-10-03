@@ -19,10 +19,16 @@ const Portifa = () => {
               </section>
               <section className="details-text py-3 mb-8 lg:mb-0">
                 <h3>{item.title}</h3>
+                
+                  {/* <a href={item.url} target="_blank" rel="noreferrer">Ir para {item.title}</a> */}
+                  {item.url === "" ?
+                  ""
+                :
                 <div className="linkToProject">
                   <p>link:</p> 
                   <a href={item.url} target="_blank" rel="noreferrer">Ir para {item.title}</a>
                 </div>
+                }
                 <p className="mt-2">{item.description}</p>
               </section>              
             </div>
